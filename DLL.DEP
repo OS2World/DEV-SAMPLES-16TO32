@@ -1,0 +1,14 @@
+# IBM Developer's Workframe/2 Make File Creation run at 12:00:56 on 02/07/92
+
+# Make File Creation run in directory:
+#   D:\CLASS\DLL;
+
+# Assumed INCLUDE environment variable path:
+#   d:\TOOLKT20\C\OS2H;
+#   d:\TOOLKT20\MASM\OS2INC;
+#   d:\IBMC\INCLUDE;
+
+
+DLL.OBJ:  DLL.C  \
+#  {$(INCLUDE);}os2.h  \
+   DLL.MAK
